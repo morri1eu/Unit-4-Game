@@ -1,0 +1,19 @@
+body{
+    background-image: url("../images/pexels-photo-988873.jpeg");
+    background-repeat: repeat;
+    z-index: -1;
+}
+#instructions{
+    font-family: 'Indie Flower', cursive;
+
+}
+.crystals img{
+    float: left;
+    width: 25%;
+}
+.jumbotron{
+    background: none;
+}
+#crystal{
+    width: 25%;
+}

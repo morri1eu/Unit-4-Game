@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script src="Assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Crystal Collector!</h1>
+        <p class="lead">Let's play crystal collector!!!</p>
+        <hr class="my-4">
+        <p>It's the hip new game from Evan Inc.</p>
+        <!-- <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p> -->
+    </div>
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-6" id="instructions">
+                <p>You will be given a random number at the start of the game.</p><br>
+                <p>THere are four crystals below. By clicking on one crystal you will add a specific amount of points to your score</p><br>
+                <p>You will win the game by matching your total score to the random number given, you lose if your total score goes above the number given</p><br>
+                <p>The value of each crystal is hidden from you until you click on it.</p><br>
+                <p>Each time when the game starts, the value of each crystal will change.</p>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12" id="stats">
+                        <p>Wins: <span id="wins"></span></p>
+                        <p>Losses: <span id="losses"></span></p>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="score">
+                        <p>Score: <span id="points"></span></p>
+                        <p>Number to Guess: <span id="numToGuess"></span></p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12 crystals">
+                        <button id="crystal diamond"><img src="Assets/images/diamond.jpg" alt="Diamond" ></button>
+                        <button id="crystal emerald"><img src="Assets/images/emerald.jpg" alt="Emerald" ></button>
+                        <button id="crystal onyx"><img src="Assets/images/onyx.jpg" alt="Onyx" ></button>
+                        <button id="crystal ruby"><img src="Assets/images/ruby.jpg" alt="Ruby" ></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
